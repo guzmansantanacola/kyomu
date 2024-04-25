@@ -1,6 +1,8 @@
 .navbar{
     background: none;
     display: flex;
+    position: sticky 10px;
+    z-index: 10;
 }
 @font-face {
     font-family: Naava;
@@ -16,4 +18,14 @@
     color: #dac9df;
     justify-content: center;
     align-items: center;
+}
+
+.banner img {
+    width: 100%;
+    top: 0px;
+    position: absolute;
+}
+
+.banner {
+    top: 0px;
 }

@@ -1,9 +1,4 @@
-body {
-  background-image: url(/descarga.gif);
-  background-repeat: no-repeat;
-  background-attachment: fixed ;
-  background-size: cover;
-}
+
 @font-face {
   font-family: Naava;
   src:url(/Naava\ Bold.ttf);

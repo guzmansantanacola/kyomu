@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+.logo-container img {
+    width:30%;
+  }
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 10%; 
+    right: 10%;
+    transform: translateY(-50%);
+    align-items: center;
+    display: flex;
+  }
+
+
+ .slogan{
+    padding-left:15%;
+    color: #5dc1b9;
+    font-family: "Montserrat", sans-serif;
+ }
+
+  @media (max-width: 768px) {
+    .logo-container img {
+      width: 0; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .logo-container img {
+      width: 0;
+    }
+  }

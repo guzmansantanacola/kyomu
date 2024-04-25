@@ -7,15 +7,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 function BasicExample() {
     return (
+        <>
       <Navbar expand="lg" bg="opacity-0" data-bs-theme="dark" className='navbar'>
         <Container>
         
 
-          <Navbar.Brand className='d-flex align-items-center brandname'href="#home">  <img
-              src="/logo.png"
-              width="30"
-              height="30"   
-            />KYOMU</Navbar.Brand>
+          <Navbar.Brand className='brandname d-flex align-items-center 'href="#home">KYOMU</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -27,6 +24,10 @@ function BasicExample() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <div className='banner'>
+        <img src="/descarga.gif" alt="" />
+    </div>
+      </>
     );
   }
 
