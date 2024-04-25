@@ -1,0 +1,19 @@
+.navbar{
+    background: none;
+    display: flex;
+}
+@font-face {
+    font-family: Naava;
+    src:url(/Naava\ Bold.ttf);
+  }
+    
+  .brandname{
+    font-family: Naava;
+  }
+  
+  
+.brandname{
+    color: #dac9df;
+    justify-content: center;
+    align-items: center;
+}
